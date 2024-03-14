@@ -12,8 +12,30 @@ img {
 }
 
 .section1 {
-    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.Row1,
+.Row2,
+.Row3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.Row1 {
+    background-image: url(/Bildegalleri/1b.jpg)
+    background-size: cover;
+}
+
+.Row2 {
+    background-image: url(/Bildegalleri/2b.jpg)
+    background-size: cover;
+}
+
+.Row3 {
+    background-image: url(/Bildegalleri/3b.jpg)
+    background-size: cover;
 }
