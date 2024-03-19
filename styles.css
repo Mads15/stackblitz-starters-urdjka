@@ -1,6 +1,44 @@
+.navbar {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #dbdbdb;
+    animation-name: change-color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+    
+    @keyframes change-color {
+      from {color: rgb(0, 0, 0);
+    }
+    
+    to {color: coral;
+    }
+}
+
 img {
     height: 30vh;
     width: 30vh;
+}
+
+img:hover {
+    scale: 1.5;
 }
 
 .bildegalleri {
@@ -39,26 +77,4 @@ img {
 .Row3 {
     background-image: url(/Bildegalleri/3b.jpg);
     padding-bottom: 30vh;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    overflow: hidden;
-    background-color: #ffffff;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
 }
