@@ -24,14 +24,50 @@ img {
 .Row1 {
     background-image: url(/Bildegalleri/1b.jpg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 30vh;
+    padding-left: 100vw;
+    padding-right: 100vw;
 }
 
 .Row2 {
     background-image: url(/Bildegalleri/2b.jpg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-left: 100vw;
+    padding-right: 100vw;
 }
 
 .Row3 {
     background-image: url(/Bildegalleri/3b.jpg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 30vh;
+    padding-left: 100vw;
+    padding-right: 100vw;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
 }
